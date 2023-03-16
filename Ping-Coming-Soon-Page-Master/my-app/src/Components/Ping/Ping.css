@@ -1,0 +1,156 @@
+/* ========================== */
+
+/* ===== Colors I worked with ====== */
+
+/*============================ */
+
+/* :root {
+    --blue: hsl(223,87%, 63%)
+    --Pale Blue: hsl(223, 100%, 88%)
+    --Light Red: hsl(354, 100%, 66%)
+    --Gray: hsl(0, 0%, 59%)
+    --Very-Dark-Blue: hsl(209, 33%, 12%)
+} */
+
+body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+   
+}
+
+.logo-div {
+    display: flex;
+    justify-content: center;
+    margin-top: 32px;
+
+}
+
+.main-header {
+    display: flex;
+    justify-content: center;
+}
+
+span {
+    color: hsl(0, 0%, 59%);
+    font-size: 32px;
+    font-weight: 600;
+}
+
+.subscribe {
+    display: flex;
+    justify-content: center;
+    margin-top: 3px;
+}
+
+.cta {
+    display: flex;
+    justify-content: center;
+    margin-top: 12px 12px;
+    
+}
+
+.email {
+    border-radius: 30px;
+    border: 1px solid hsl(223, 100%, 88%);
+    color: hsl(0, 0%, 59%);
+    font-size: 12px;
+    margin-right: 5px;
+    padding: 10px 45px 10px 12px;
+    cursor: text;
+    
+}
+
+button {
+    background-color: hsl(223,87%, 63%);
+    color: #fff;
+    border: none;
+    padding: 9px 24px;
+    text-align: center;
+    border-radius: 30px;
+    margin-left: 5px;
+    font-size: 12px;
+    cursor: pointer;
+   
+}
+
+.error-msg {
+    color: red;
+}
+
+.illustration-img-div {
+    display: flex;
+    justify-content: center;
+    margin-top: 24px;
+
+}
+
+.illustration-img {
+    
+    width: 682px;
+    height: 400px;
+}
+
+.sm {
+    display: flex;
+    justify-content: center;
+}
+
+.sm .socials {
+    width: 32px;
+    display: flex;
+    justify-content: space-between;
+}
+
+p {
+    display: flex;
+    justify-content: center;
+    font-size: x-small;
+    color: hsl(0, 0%, 59%);
+    margin-top: 7px;
+}
+
+/* =========================== */
+
+/* Mobile Responsiveness */
+
+/* =========================== */
+
+@media screen and ( max-width: 678px) {
+   
+    /* .illustration-img-div {
+        margin: 0 32px;
+    } */
+
+    .illustration-img {
+        padding: 0 32px;
+        width: 482px;
+        height: 200px;
+    }
+
+    .email {
+        width: 75%;
+        margin-bottom: 3px;
+        
+    }
+
+    .notify-me {
+        width: 95%;
+        margin-top: 3px;
+    
+    }
+
+    .cta{
+        display: block;
+        display: flex;
+        justify-content: center;
+    }
+
+    .sm {
+        padding-top: 16px;
+    }
+
+    .socials {
+        margin-bottom: 16px;
+    }
+}

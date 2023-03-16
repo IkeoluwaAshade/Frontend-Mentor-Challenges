@@ -1,0 +1,147 @@
+ @import url('https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap');
+
+ /*
+:root {
+  --Cyan: hsl(179, 62%, 43%);
+  --BrightYellow: hsl(71, 73%, 54%)  
+  Background color
+  --LightGray: hsl(204, 43%, 93%)
+  --GrayishBlue: hsl(218, 22%, 67%)
+}*/
+
+
+
+
+body {
+  background-color: hsl(204, 43%, 93%);
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  line-height: 1.5;
+  /* letter-spacing: -0.2px; */
+  font-family: 'karla', sans-serif;
+  font-size: 16px;
+}
+
+.Content-Container {
+  width: 50%;
+  margin: auto;
+  padding: auto;
+  display: grid;
+  justify-content: center;
+}
+
+header h1 {
+  color: hsl(179, 62%, 43%);
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.top-section {
+  background-color: hsl(0, 0%, 100%);
+  text-align: justify;
+  margin-top: 10%;
+  padding: 50px;
+  border-radius: 12px 12px 0 0;
+}
+
+.top-headings {
+  color: hsl(71, 73%, 54%);
+}
+
+.top-paragraph {
+ color: hsl(218, 22%, 67%);
+
+}
+
+.bottom-section {
+  color: hsl(0, 0%, 100%);
+  display: flex;
+  justify-content: center;
+  height: 90%;
+  border-radius: 0 0 12px 12px;
+}
+
+span {
+  display: inline;
+  font-size: 32px;
+}
+
+.per-month {
+  opacity: 0.5;
+  padding-left: 7px; 
+  display: inline;
+}
+
+
+.cta {
+  background-color: hsl(71, 73%, 54%);
+  color: hsl(0, 0%, 100%);
+  display: grid;
+  place-items: center;
+  height: 3rem;
+  margin-top: 1.5rem;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all;
+
+}
+
+.bottom-left {
+  background-color: hsl(179, 62%, 43%);
+  padding: 50px;
+  border-radius: 0 0 0 12px;
+}
+
+.bottom-right {
+  background-color:  rgba(71, 221, 219, 0.7);
+  padding: 50px;
+  border-radius: 0 0 12px 0;
+}
+
+ul {
+  list-style: none;
+  padding-left: unset;
+}
+
+
+/* ------------------------ */
+/* Mobile Responsiveness    */
+/* ------------------------ */
+
+@media screen and ( max-width: 678px){
+  .bottom-section {
+    display: block;
+  }
+
+  .bottom-left {
+    border-radius: 0;
+  }
+
+  .bottom-right {
+    border-radius: 0 0 12px 12px;
+    margin-bottom: 50px;
+  }
+
+  .Content-Container {
+    width: 85%;
+  }
+
+  header h1 {
+    font-size: 20px;
+  }
+}
+
+@media  screen and (max-width: 375px) {
+
+  .Content-Container {
+    width: 95%
+  }
+
+ header h1 {
+    font-size: 20px;
+  }
+  
+}
