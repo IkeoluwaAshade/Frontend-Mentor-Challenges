@@ -1,0 +1,175 @@
+
+/* =============== Colors I worked with ==================== */
+
+
+/* ### Primary
+- Red: hsl(0, 78%, 62%)
+- Cyan: hsl(180, 62%, 55%)
+- Orange: hsl(34, 97%, 64%)
+- Blue: hsl(212, 86%, 64%)
+
+### Neutral
+- Very Dark Blue: hsl(234, 12%, 34%)
+- Grayish Blue: hsl(229, 6%, 66%)
+- Very Light Gray: hsl(0, 0%, 98%) */
+
+/* ========================================================== */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} 
+
+body {
+    color: #fff;
+    font-size: 15px;
+    font-family: poppins;
+}
+
+.hero-text {
+    color: hsl(229, 6%, 66%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 54px;
+    
+}
+
+span {
+    color: hsl(234, 12%, 34%);
+}
+
+.card {
+    background-color: #fff;
+    color: hsl(234, 12%, 34%);
+    border-radius: 7px;
+    padding: 22px, 32px;
+    box-shadow: 10px 10px 30px hsl(229, 6%, 66%);
+    height: 22vh;
+    width: 18vw;
+    margin-bottom: 32px;
+}
+
+.team-builder {
+    border-top: 5px solid hsl(0, 78%, 62%);
+    position: relative;
+    
+}
+
+.supervisor {
+    border-top: 5px solid hsl(180, 62%, 55%);
+    position: relative;
+}
+
+.karma {
+    border-top: 5px solid hsl(34, 97%, 64%);
+    position: relative;
+    grid-column-start: 2;
+    grid-row-end: 4;
+} 
+
+.calculator {
+    border-top: 5px solid hsl(212, 86%, 64%);
+    position: relative;
+} 
+
+.card-container {
+    padding-top: 32px;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-column-gap: 16px;
+    justify-content: center;
+    align-items: center;
+}
+
+h6 {
+    font-weight: 600;
+    font-size: 15px;
+    color: hsl(234, 12%, 34%);
+    position: absolute;
+    top: 10px;
+    left: 15px;    
+}
+
+.card-text {
+    font-size: 10px;
+    color: hsl(229, 6%, 66%);
+    font-size: 12px;
+    position: absolute;
+    top: 32px;
+    left: 15px;
+    width: 80%;
+    text-align: left;
+}
+
+img {
+    width: 4vw;
+    margin-top: 36px;
+    position: absolute;
+    top: 45px;
+    right: 15px;
+}
+
+footer {
+    background-color: hsl(212, 86%, 64%);
+    color: #fff;
+    padding: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+
+/* ========================================== */
+/* ========== MOBILE REPONSIVENESS ========== */
+/* ========================================== */
+
+@media only screen and (max-width: 750px) {
+
+  
+    h1 span {
+        font-size: 22px;
+    }
+
+    .hero-text {
+        color: 
+        hsl(229, 6%, 66%);
+    }
+
+    span {
+        color: hsl(234, 12%, 34%);
+    }
+
+    .hero-para {
+        font-size: 16px;
+        width: 260px;
+        padding: 0px 10px;
+        margin-top: 24px;
+    }
+
+    .card-container {
+        display: flex;
+        flex-direction: column; 
+        margin-bottom: 32px;
+    }
+
+    .card {
+        height: 25vh;
+        width: 55vw;
+        margin-bottom: 32px;
+    }
+
+    h6 {
+        font-size: large;
+    }
+
+    img {
+        width: 12vw;
+    }
+
+}
