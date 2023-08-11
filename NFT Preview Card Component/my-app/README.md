@@ -24,7 +24,7 @@ Your users should be able to:
 
 
 ## Links
-- [Solution URL](https://github.com/IkeoluwaAshade/Frontend-Mentor-Challenges/tree/main/NFT-Preview-Card-Component/my-app)
+- [Solution URL](https://github.com/IkeoluwaAshade/NFT-Preview-Card-Component/my-app)
 - Live Site URL
 
 ## Built with
