@@ -1,0 +1,214 @@
+/* ============================================== */
+/* =============== Color Used =================== */
+/* ============================================== */
+
+:root {
+    /* ### Primary  */
+ --orange-color: hsl(31, 77%, 52%);  
+ --cyan-color: hsl(184, 100%, 22%);  
+ --cyan-dark-color: hsl(179, 100%, 13%); 
+ --gray-light-color: hsl(0, 0, 95%);
+
+ --skyblue-color: skyblue;
+ --white-color: #fff;
+ --black-color: #000;
+ --navy-blue: #30276c;
+
+ /* ### Neutral */
+
+ /* Transparent white (paragraphs): hsla(0, 0%, 100%, 0.75)
+ Very light gray (background, headings, buttons): hsl(0, 0%, 95%) */
+
+
+ /* ======================= */
+ /* ====== Fonts ========== */
+ /* ======================= */
+
+ --font-fallback: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+ --font-primary: "Lexend Deca", var(--font-fallback);
+ --font-secondary: "Big Shoulders Display", var(--font-fallback);
+}
+
+@font-face {
+    font-family: "Big Shoulders Display";
+    font-style: normal;
+    font-weight: 700;
+    font-display: swap;
+    src: url(https://fonts.google.com/specimen/Big+Shoulders+Display) format("woff2");
+   
+}
+
+ @font-face {
+    font-family: "Lexend Deca";
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url(https://fonts.google.com/specimen/Lexend+Deca) format("woff2");
+}
+
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+@media (prefers-reduced-motion: reduce) {
+    *, *::before, *::after {
+        animation-duration: 0.1ms !important;
+        animation-iteration-count: 1 !important;
+        transition-duration: 0.01ms !important;
+    }
+} 
+
+.main-body {
+    margin: unset;
+    display: flex;
+    flex-direction: column;
+    background-color: var(--gray-light-color);
+    align-items: center;
+    min-height: 100vh;
+    -webkit-text-size-adjust: none;
+    text-size-adjust: none;
+    font: 400 15px/1.6 var(--font-primary);
+}
+
+main {
+    flex: 1;
+    text-align: center;
+    display: flex;
+    padding: 16px;
+    margin-bottom: 56px;
+}
+
+h1 {
+    font: 700 40px/1.1 var(--font-secondary);
+    text-transform: uppercase;
+    margin-top: 35px;
+    margin-bottom: 25px;
+}
+
+p {
+    margin-top: 0;
+    margin-bottom: 83px;
+}
+
+a {
+    background-color: var(--white-color);
+    border: 2px solid var(--white-color);
+    padding-inline: 32px;
+    display: inline-block;
+    mix-blend-mode: lighten;
+    text-decoration: none;
+    height: 48px;
+    border-radius: 48px;
+    line-height: calc(48px - 2px);
+    transition: background-color 0.1s linear, color 0.15s linear;
+}
+
+.sedan > a {
+    color: var(--orange-color);
+}
+
+.suv > a {
+    color: var(--cyan-color);
+}
+
+.luxury > a {
+    color: var(--cyan-dark-color);
+}
+
+a:hover, a:focus {
+    background-color: transparent;
+    color: var(--white-color);
+    outline: none;
+    border: 2px solid var(--white-color);
+}
+
+@media (max-width: 950px) {
+    main {
+        flex-direction: column;
+    }
+
+    p {
+        margin-top: 0;
+        margin-bottom: 25px;
+    }
+
+}
+
+.column {
+    background-color: var(--background);
+    border-radius: var(--border-radius, 8px);
+    z-index: var(--z-index, 1);
+    max-width: calc(307px + var(--spacing, 0px));
+    width: 100%;
+    height: 500px;
+    padding: 48px;
+}
+
+.column:nth-child(1) {
+    --background: var(--orange-color);
+    color: var(--white-color);
+    --border-radius: 10px 0 0 10px;
+    --spacing: 8px;
+}
+
+.column:nth-child(2) {
+    --background: var(--cyan-color);
+    color: var(--white-color);
+    --z-index: 2;
+    --border-radius: 0 0 0 0;
+}
+
+.column:nth-child(3) {
+    --background: var(--cyan-dark-color);
+    color: var(--white-color);
+    --border-radius: 0 10px 10px 0;
+    --spacing: 8px;
+}
+
+@media (max-width: 950px) {
+
+    .column {
+        border-radius: var(--border-radius, 10px);
+        max-width: 328px;
+        width: 100%;
+        padding: 48px;
+        height: max-content;
+    }
+
+    .column:nth-child(1) {
+        --border-radius: 10px 10px 0 0;
+        --spacing: 8px;
+    }
+
+    .column:nth-child(2) {        
+        margin: -8px 0;
+    }
+
+    .column:nth-child(3) {
+        --border-radius: 0 0 10px 10px;
+        --spacing: 8px;
+    }
+
+}
+
+
+
+footer {
+    background-color: var(--skyblue-color); 
+    color: var(--white-color);
+    bottom: 0;
+    position: fixed;
+    display: flex;
+    justify-content: center;    
+    width: 100%;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    font-weight: bold;
+}
+
+span {
+    color: var(--navy-blue);
+    text-decoration: underline;
+}
+  
+
