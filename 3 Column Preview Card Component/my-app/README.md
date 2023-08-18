@@ -23,7 +23,7 @@ Your users should be able to:
 
 
 ## Links
-- [Solution URL](https://github.com/IkeoluwaAshade/Frontend-Mentor-Challenges/tree/main/3-Column-Preview-Card-Component/my-app)
+- [Solution URL](3-Column-Preview-Card-Component/my-app)
 - Live Site URL
 
 ## Built with
