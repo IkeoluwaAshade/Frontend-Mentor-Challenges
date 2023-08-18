@@ -1,6 +1,6 @@
 # Frontend Mentor - 3 Column Preview Card Component Main
 
-![Design preview for the 3 Column Preview Card Component Main coding challenge](https://res.cloudinary.com/dz209s6jk/image/upload/f_auto,q_auto,w_475/Challenges/i6wu7n5sthrxgfpfibvx.jpg)
+![Design preview for the 3 Column Preview Card Component Main coding challenge]()
 
 ## Welcome! 👋
 
@@ -23,7 +23,7 @@ Your users should be able to:
 
 
 ## Links
-- [Solution URL](https://github.com/IkeoluwaAshade/Frontend-Mentor-Challenges/tree/main/single-price-grid-component-master/my-app)
+- [Solution URL](https://github.com/IkeoluwaAshade/Frontend-Mentor-Challenges/tree/main/3-Column-Preview-Card-Component/my-app)
 - Live Site URL
 
 ## Built with
