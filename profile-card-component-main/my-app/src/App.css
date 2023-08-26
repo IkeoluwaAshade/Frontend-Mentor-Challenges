@@ -1,0 +1,146 @@
+/* ================================ */
+/* ========== Color Used ========== */
+/* ================================ */
+
+:root {
+  /* ### Primary */
+  --dark-cyan: hsl(185, 75%,39%);
+  --desaturated-blue: hsl(229, 23%, 23%);
+  --grayish-blue: hsl(227, 10%, 46%);
+
+  /* ### Neutral */
+  --dary-gray: hsl(0, 0%, 59%);
+  --sky-blue: skyblue;
+  --alice-blue: aliceblue;
+
+
+/* ================================ */
+/* ============ Font ============== */
+/* ================================ */
+
+--font-fallback: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", "sans-serif";
+--font-primary: "Kumbh", var (--font-fallback);
+}
+
+@font-face {
+  font-family: "kumbh";
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(https://fonts.google.com/specimen/Kumbh+Sans) format("woff2");
+}
+
+@font-face {
+  font-family: "kumbh";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.google.com/specimen/Kumbh+Sans) format("woff2");
+}
+
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+.mainBg {
+  background-color: var(--dark-cyan);
+  background-image: url('./Images/bg-pattern-top.svg'), url('./Images/bg-pattern-bottom.svg');
+  background-repeat: no-repeat;
+  background-position: calc(50% - 510px) calc(50% - 390px), calc(50% + 470px) calc(50% + 500px);
+
+  margin: unset;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 100vh;
+  -webkit-text-size-adjust: none;
+  text-size-adjust: none;
+  font: 400 18px/1.6 var(--font-primary);
+}
+
+.pattern-top-and-bottom {
+  position: absolute;
+  z-index: 1;
+}
+
+
+
+main {
+  background-color: var(--alice-blue);
+  width: min(calc(100% - 22px), 340px);
+  overflow: hidden;
+  flex: 0;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding: 18px;
+  margin-bottom: 56px;
+  margin: auto;
+  z-index: 2;
+  border-radius: 7px;
+  height: 25rem;
+}
+
+figure {
+  margin: 0 auto;
+  min-width: 100%;
+  height: 7rem;
+  width: 100%;
+  background: transparent url(./Images/bg-pattern-card.svg);
+  
+}
+
+img {
+  border-radius: 50%;
+  border: 5px solid var(--alice-blue);
+  vertical-align: middle;
+  translate: 0 50%;
+  box-sizing: content-box;
+  
+}
+
+.about {
+  margin-top: 4rem;
+  line-height: 16px;
+  color: var(--desaturated-blue);
+}
+
+h3 > span {
+  font-weight: 300;
+  color: var(--dark-gray);
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  margin-top: 24px;
+  border-top: 1px solid var(--grayish-blue);
+  
+}
+
+.item {
+  text-align: center;
+  justify-content: space-between;
+  width: 6rem;
+  line-height: 7px;
+  color: var(--desaturated-blue);
+  font-size: 700;
+  
+}
+
+.container  p {
+  font-size: x-small;
+  color: var(--grayish-blue);
+}
+
+footer {
+  background-color: var(--sky-blue);
+  color: var(--alice-blue);
+  font-weight: bolder;
+  width: 100%;
+  bottom: 0;
+  position: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
