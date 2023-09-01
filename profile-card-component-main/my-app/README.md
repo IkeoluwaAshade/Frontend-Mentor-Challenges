@@ -61,7 +61,8 @@ const proudOfThisFunc = () => {
 ### Useful resources
 
 - [MDN](https://developer.mozilla.org/en-US/) 
-- [W3Schools](https://www.w3schools.com/) 
+- [W3Schools](https://www.w3schools.com/)
+- [ChatGPT](https://chat.openai.com/)
 
 
 ## Author
