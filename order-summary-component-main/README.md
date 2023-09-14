@@ -40,5 +40,5 @@ Users should be able to:
 
 ## Author
 - LinkedIn - [Ikeoluwa Ashade](https://www.linkedin.com/public-profile/settings?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_self_edit_contact-info%3BpxB7EaXFSqyo882GTXMuXw%3D%3D)
-- Frontend Mentor - [@IkeoluwaAshade](https://www.frontendmentor.io/profile/@IkeoluwaAshade)
-- Twitter - [@IkeoluwaAshade](https://www.twitter.com/IkeoluwaAshade)
+- Frontend Mentor - [Ikeoluwa Ashade](https://www.frontendmentor.io/profile/IkeoluwaAshade)
+- Twitter - [Ikeoluwa Ashade](https://www.twitter.com/IkeoluwaAshade)
