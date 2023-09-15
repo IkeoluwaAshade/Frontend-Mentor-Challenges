@@ -31,4 +31,4 @@ Your users should be able to:
 - React
 
 ## Author
-- [Ikeoluwa Ashade](https://twitter.com/@IkeoluwaAshade)
+- Twitter: [Ikeoluwa Ashade](https://twitter.com/@IkeoluwaAshade)
