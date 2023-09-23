@@ -31,3 +31,4 @@ Your users should be able to:
 
 ## Author
 - Twitter: [Ikeoluwa Ashade](https://twitter.com/@IkeoluwaAshade)
+- Frontend Mentor - [Ikeoluwa Ashade](https://www.frontendmentor.io/profile/IkeoluwaAshade)
