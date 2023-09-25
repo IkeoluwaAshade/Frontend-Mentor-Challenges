@@ -1,0 +1,185 @@
+*, *::before, *::after {
+    margin: unset;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+
+}
+
+@font-face {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-display: swap;
+   
+    src: url(./fonts/inter-bold.woff2) format("woff2");
+}
+
+@font-face {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url(./fonts/Inter-Regular.woff2) format("woff2");
+}
+
+@font-face {
+    font-family: 'Lexend Deca';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url(./fonts/LexendDeca-Regular.woff2) format("woff2");
+}
+
+main {
+    background-color: var(--very-dark-blue);
+    color: var(--white);
+    width: 100%;
+    height: 100vh;
+    font-family: var(--primary-font);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#preview-card-component {
+    background-color: var(--dark-desaturated-blue);
+    max-width: 450px;
+    height: 375px;
+    padding: 3.5rem;
+    border-radius: 12px 0 0 12px;
+
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+span {
+    color: var(--soft-violet);
+}
+
+p {
+    color: var(--slightly-transparent-white);
+    font-size: 15px;
+    margin-top: 1.5rem;
+    line-height: 1.5;
+}
+
+h4 {
+    color: var(--white);
+    font-size: 2rem;
+}
+
+#statics {
+    text-transform: uppercase;
+    margin-top: 2rem;
+    font-size: 2rem;
+
+    display: flex;
+    justify-content: space-between;
+}
+
+figure {
+    background-color: var(--soft-violet);
+}
+
+.desktop-image {
+    mix-blend-mode: multiply;
+    opacity: 0.75;
+
+    max-width: 100%;
+    height: auto;
+    float: right;
+    border-radius: 0 12px 12px 0;
+}
+
+
+
+
+footer {
+    background-color: var(--gray-color);
+    color: var(--alice-color);
+    width: 100%;
+    padding: 10px;
+    font: normal normal 900 16px/1.3 'var(--secondary-font)';
+
+    position: fixed;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* ============================================ */
+/* ========== Mobile Responiveness ============ */
+/* ============================================ */
+
+.mobile-image {
+    display: none;
+}
+
+@media screen and (max-width: 760px) {
+
+
+    .desktop-image {
+        display: none;
+    }
+
+    .mobile-image {
+        
+        mix-blend-mode: multiply;
+        opacity: 0.75;
+
+        display: block;
+        max-width: 100%;
+
+        object-fit: cover;
+        height: 100%;
+    }
+
+    main {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 100%;
+    }
+
+    figure {
+        background-color: var(--soft-violet);
+        margin-top: 4rem;
+        max-width: 540px;
+        border-radius: 12px 12px 0 0;
+    }
+
+    #preview-card-component {
+        height: 70vh;
+        border-radius: 0 0 12px 12px;
+        margin-bottom: 12rem;
+    }
+
+    #preview-card-component > p {
+        text-align: center;
+        line-height: 1.7;
+    }
+
+    #statics {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        line-height: 1.3;
+    }
+
+    h4 {
+        color: var(--white);
+        font-size: 2rem;
+    }
+
+    footer {
+        text-align: center;
+    }
+    
+}
