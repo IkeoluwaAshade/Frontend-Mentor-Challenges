@@ -36,7 +36,7 @@ Users should be able to:
 - [Solution URL](https://your-solution-url.com)
 - [Site URL here](https://your-live-site-url.com)
 
-## My process
+
 
 ### Built with
 
