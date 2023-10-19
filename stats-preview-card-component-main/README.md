@@ -57,11 +57,10 @@ Users should be able to:
 
 
 
-### Continued development
+### Continued deve
 
 
 
-**Note: Delete this note and the content within this section and replace with your own plans for continued development.**
 
 ### Useful resources
 
