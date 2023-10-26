@@ -74,7 +74,7 @@ Users should be able to:
 - [Frontend Mentor](https://www.frontendmentor.io/profile/IkeoluwaAshade)
 - [Twitter](https://www.twitter.com/IkeoluwaAshade)
 
-**Note: Delete this note and add/remove/edit lines above based on what links you'd like to share.**
+
 
 ## Acknowledgments
 
