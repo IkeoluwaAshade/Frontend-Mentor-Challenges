@@ -9,7 +9,6 @@ This is a solution to the [Stats preview card component challenge on Frontend Me
 ## Table of contents
 
   - [The challenge](#the-challenge)
-  - [Screenshot](#screenshot)
   - [Links](#links)
   - [Built with](#built-with)
   - [Useful resources](#useful-resources)
@@ -24,9 +23,7 @@ Users should be able to:
 
 - View the optimal layout depending on their device's screen size
 
-### Screenshot
 
-![](./screenshot.jpg)
 
 
 
