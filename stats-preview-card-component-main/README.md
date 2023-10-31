@@ -68,8 +68,11 @@ Users should be able to:
 
 ## Author
 
-- [Frontend Mentor](https://www.frontendmentor.io/profile/IkeoluwaAshade)
-- [Twitter](https://www.twitter.com/IkeoluwaAshade)
+- Frontend Mentor - [Ikeoluwa Ashade](https://www.frontendmentor.io/profile/IkeoluwaAshade)
+- Twitter - [Ikeoluwa Ashade](https://www.twitter.com/IkeoluwaAshade)
+
+## Got Feedback for me?
+- I love receiving feedback! I am always looking to improve my coding skills. So if you have anything you'd like to mention, please [email](reachme.ikeoluwa@mail.com)
 
 
 
