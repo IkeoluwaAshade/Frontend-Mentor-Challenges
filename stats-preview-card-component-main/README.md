@@ -40,7 +40,7 @@ Users should be able to:
 - Semantic HTML5 markup
 - CSS custom properties
 - [React](https://reactjs.org/) 
-- [Next.js](https://nextjs.org/) - React framework
+  
 
 
 
@@ -72,7 +72,7 @@ Users should be able to:
 - Twitter - [Ikeoluwa Ashade](https://www.twitter.com/IkeoluwaAshade)
 
 ## Got Feedback for me?
-- I love receiving feedback! I am always looking to improve my coding skills. So if you have anything you'd like to mention, please [email](reachme.ikeoluwa@mail.com)
+- I love receiving feedback! I am always looking to improve my coding skills. So if you have anything you'd like to mention,  [please reach out](reachme.ikeoluwa@mail.com)
 
 
 
