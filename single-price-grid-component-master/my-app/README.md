@@ -32,3 +32,7 @@ Your users should be able to:
 ## Author
 - Twitter: [Ikeoluwa Ashade](https://twitter.com/@IkeoluwaAshade)
 - Frontend Mentor - [Ikeoluwa Ashade](https://www.frontendmentor.io/profile/IkeoluwaAshade)
+
+
+## Got Feedback for me?
+- I love receiving feedback! I am always looking to improve my coding skills. So if you have anything you'd like to mention,  [please reach out](reachme.ikeoluwa@mail.com)
