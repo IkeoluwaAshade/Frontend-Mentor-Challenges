@@ -1,5 +1,7 @@
 # Frontend Mentor - Social proof section solution
 
+![Desktop Design](https://github.com/IkeoluwaAshade/Frontend-Mentor-Challenges/blob/main/social%20proof%20section%20master/design/desktop-design.jpg)
+
 This is a solution to the [Social proof section challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/social-proof-section-6e0qTv_bA). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
 
 ## Table of contents
