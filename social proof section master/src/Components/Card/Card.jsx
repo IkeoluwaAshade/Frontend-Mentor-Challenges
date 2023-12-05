@@ -8,7 +8,7 @@ const Card = ({Image, Name, Review }) => {
 
             <HeadPart>
                 <ImageDiv>
-                    <img src={Image} alt="" />
+                    <img src={Image} alt="Profile Head Shot" />
                 </ImageDiv>
 
                 <Details>
@@ -37,10 +37,14 @@ font-size: 18px;
 width: 500px;
 height: 300px;
 border-radius: 12px;
+
+@media (max-width: 500px) {
+    width: 400px;
+    height: 350px;
+}
 `
 
 const HeadPart = styled.div`
-/* background-color: red; */
 height: 100px;
 padding-left: 64px;
 padding-top: 48px;
@@ -66,13 +70,10 @@ h3 {
 p {
     color: hsl(333, 80%, 67%);
     line-height: 1px;
-
-    /* margin-top: 12px; */
 }
 `
 
 const ReviewDiv = styled.div`
-/* background-color: red; */
 color: hsl(0, 0%, 100%);
 font-weight: 400;
 padding: 10px 64px;

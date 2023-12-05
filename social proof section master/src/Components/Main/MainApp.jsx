@@ -27,13 +27,13 @@ const MainApp = () => {
                      </ParagraphText>
                 </ABC>
 
-                    <XYZ>
-                        <Firststar><StarRating Rating="Rated 5 Stars in Reviews" /></Firststar>
+                <XYZ>
+                    <Firststar><StarRating Rating="Rated 5 Stars in Reviews" /></Firststar>
 
-                        <Secondstar><StarRating Rating="Rated 5 Stars in Report Guru" /></Secondstar>
+                    <Secondstar><StarRating Rating="Rated 5 Stars in Report Guru" /></Secondstar>
 
-                        <Thirdstar><StarRating Rating="Rated 5 Stars in BestTech" /></Thirdstar>
-                    </XYZ>
+                    <Thirdstar><StarRating Rating="Rated 5 Stars in BestTech" /></Thirdstar>
+                </XYZ>
 
             </HeroHold>
 
@@ -67,9 +67,6 @@ const MainApp = () => {
                 
             </CardHold>
 
-            {/* <FooterSection>
-                <Footer />
-            </FooterSection> */}
         </Wrapper>
         <FooterSection>
                 <Footer />
@@ -81,25 +78,26 @@ const MainApp = () => {
 export default MainApp
 
 const Container = styled.div`
-/* background-color: green; */
 width: 100%;
-
 display: flex;
 justify-content: center;
 align-items: center;
-/* flex-direction: column; */
+
+@media (max-width: 500px) {
+    /* flex-direction: column; */
+}
 `
 
 const Wrapper = styled.div`
-/* background-color: aqua; */
 width: 85%;
 
-
-/* margin-left: 80px; */
+@media (max-width: 500px) {
+    /* width: 100%; */
+    /* flex-direction: column; */
+}
 `
 
 const Header = styled.div`
-/* background-color: red; */
 color: hsl(300, 43%, 22%);
 margin-top: 25px;
 width: 450px;
@@ -114,45 +112,73 @@ h1 {
     font-weight: 700;
     line-height: 1.0;
 }
+
+@media (max-width: 500px) {
+    width: 500px;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
 `
 
 const ParagraphText = styled.div`
-/* background-color: red; */
 color: hsl(303, 10%, 53%);
 font-family: "League Spartan";
 font-size: 15px;
-
 width: 405px;
 height: 100px;
-
 display: flex;
 
 p {
     font-weight: 500;
 }
+
+@media (max-width: 500px) {
+    text-align: center;
+    width: 290px;
+
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+}
 `
 
 const HeroHold = styled.div`
-/* background-color: green; */
-/* width: 25px; */
-
 display: flex;
 justify-content: space-between;
+
+@media (max-width: 500px) {
+    flex-direction: column;
+}
 `
 
-const ABC = styled.div``
+const ABC = styled.div`
+@media (max-width: 500px) {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+`
 
 const XYZ = styled.div`
-/* background-color: orange; */
 margin-top: 85px;
-/* margin-right: 50px; */
-
 width: 400px;
 height: 250px;
 display: flex;
 justify-content: space-between;
 align-items: center;
 flex-direction: column;
+
+@media (max-width: 500px) {
+    height: 270px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
 `
 
 const Firststar = styled.div`
@@ -167,12 +193,12 @@ const Thirdstar = styled.div``
 
 const CardHold = styled.div`
 margin-top: 72px;
-/* background-color: red; */
-/* width: 100%;
-height: 400px; */
-
 display: flex;
 justify-content: space-between;
+
+@media (max-width: 500px) {
+    flex-direction: column;
+}
 `
 
 const FirstCard = styled.div`
@@ -192,5 +218,4 @@ const FooterSection = styled.div`
 bottom: 0;
 position: fixed;
 width: 100%;
-
 `
