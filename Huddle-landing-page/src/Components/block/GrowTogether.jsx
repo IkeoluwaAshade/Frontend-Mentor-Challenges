@@ -97,7 +97,7 @@ const GrowTogetherText = styled.div`
     }
 
     @media (max-width: 500px) {
-        width: 95%;
+        /* width: 95%; */
         text-align: center;
     }
 `

@@ -13,7 +13,7 @@ const Home = () => {
         <Hero />
         <GrowTogether />
         <Conversation />
-        {/* <User /> */}
+        <User />
 
         <Footer />
     </div>

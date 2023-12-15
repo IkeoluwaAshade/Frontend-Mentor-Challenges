@@ -40,6 +40,15 @@ const Wrapper = styled.div`
 
     display: flex;
     justify-content: space-between;
+
+    @media (max-width: 500px) {
+        flex-direction: column;
+        width: 95%;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
 `
 
 const ConversationText = styled.div`
@@ -54,6 +63,14 @@ const ConversationText = styled.div`
         width: 300px;
         font-size: 21px;
 
+        @media (max-width: 500px) {
+            width: 95%;
+
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
     }
 
     p {
@@ -63,17 +80,34 @@ const ConversationText = styled.div`
         padding-right: 20px;
         font-size: 18px;
         padding-right: 20px;
+
+        @media (max-width: 500px) {
+            background-color: green;
+            width: 95%;
+            /* margin-bottom: 90px; */
+
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+        }
     }
+
+    
 
 `
 
 const ImgDiv = styled.div`
     /* background-color: red; */
-    width: 500px;
 
-    @media (max-width: 500px) {
+    img {
+        width: 500px;
+        
+        @media (max-width: 500px) {
         /* background-color: red; */
-        width: 290px;
+        width:290px;
 
     }
+    }
+
 `
