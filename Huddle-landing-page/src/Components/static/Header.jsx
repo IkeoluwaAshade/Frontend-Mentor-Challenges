@@ -1,6 +1,7 @@
 import React from 'react'
 import styled from 'styled-components'
 import Logo from '../../assets/logo.svg'
+import BgDesktop from '../../assets/bg-hero-desktop.svg'
 
 const Header = () => {
   return (
@@ -14,6 +15,7 @@ const Header = () => {
                 Try it free
             </Tryitfree>
         </Wrapper>
+
     </Container>
   )
 }
@@ -21,7 +23,7 @@ const Header = () => {
 export default Header
 
 const Container = styled.div`
-    background-color: red;
+    background-image: url(${BgDesktop});
     width: 100%;
     height: 100px;
 
@@ -32,7 +34,7 @@ const Container = styled.div`
 `
 
 const Wrapper = styled.div`
-    background-color: #123456;
+    /* background-color: #123456; */
     width: 75%;
 
     display: flex;

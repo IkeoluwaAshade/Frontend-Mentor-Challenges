@@ -132,7 +132,7 @@ const Contact = styled.div`
     height: 280px;
 
     @media (max-width: 500px) {
-        background-color: chocolate;
+        /* background-color: chocolate; */
         width: 95%;
         
     }
@@ -140,6 +140,10 @@ const Contact = styled.div`
 
 const LogoDiv = styled.div`   
     color: #fff;  
+
+    img {
+        width: 150px;
+    }
 `
 
 const Address = styled.div`
@@ -243,6 +247,8 @@ const Socials = styled.div`
 
         p {
             padding-top: 10px;
+            text-align: center;
+            font-size: 12px;
         }
     }
 `

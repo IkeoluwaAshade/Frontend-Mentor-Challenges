@@ -1,5 +1,7 @@
 import React from 'react'
 import styled from 'styled-components'
+import BgDesktop from '../../assets/bg-hero-desktop.svg'
+import BgMobile from "../../assets/bg-hero-mobile.svg"
 import Mockup from '../../assets/illustration-mockups.svg'
 
 const Hero = () => {
@@ -34,11 +36,15 @@ const Hero = () => {
 export default Hero
 
 const Container = styled.div`
-    /* background-color: yellow; */
+    background-image: url(${BgDesktop});
     width: 100%;
 
     display: flex;
     justify-content: center;
+
+    @media (max-width: 500px) {
+        background-image: url(${BgMobile});
+    }
 `
 
 const Wrapper = styled.div`
@@ -83,7 +89,7 @@ const HeroText = styled.div`
         font-size: 18px;
 
         @media (max-width: 500px) {
-            background-color: orange;
+            /* background-color: orange; */
             margin-bottom: 2.5rem;
             
         }
