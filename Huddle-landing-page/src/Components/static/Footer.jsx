@@ -70,14 +70,6 @@ const Footer = () => {
                     © Copyright 2018 Huddle. All rights reserved.
                 </p>
             </Socials>
-
-            {/* <ProjectDetails>
-                <p>Challenge by <a href="www.frontendmentor.io">Frontend Mentor</a> Coded by <a href="#">Ikeoluwa Ashade</a></p>
-            </ProjectDetails>
-
-            <Assignment>
-                <p>Assignment 04, Master class</p>
-            </Assignment> */}
             
         </Wrapper>
 
@@ -92,7 +84,7 @@ const Container = styled.div`
     background-color: hsl(192, 100%, 9%);
     color: #fff;
     width: 100%;
-    height: 500px;
+    height: 1500px;
     
     display: flex;
     justify-content: center;
@@ -123,8 +115,14 @@ const Wrapper = styled.div`
     flex-direction: column; */
 
     @media (max-width: 500px) {
-        width: 95%;
+        /* background-color: blanchedalmond; */
         font-size: 15px;
+        width: 95%;
+        
+        display: flex;
+        justify-content: start;
+        align-items: flex-start;
+        flex-direction: column;
     }
 `
 
@@ -132,6 +130,12 @@ const Contact = styled.div`
     /* background-color: aqua; */
     width: 25%;
     height: 280px;
+
+    @media (max-width: 500px) {
+        background-color: chocolate;
+        width: 95%;
+        
+    }
 `
 
 const LogoDiv = styled.div`   
@@ -227,6 +231,20 @@ const Socials = styled.div`
     
     height: 250px;
     /* line-height: 400px; */
+
+    @media (max-width: 500px) {
+        /* background-color: skyblue; */
+        width: 95%;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+
+        p {
+            padding-top: 10px;
+        }
+    }
 `
 
 const SocialIcons = styled.div`
@@ -239,29 +257,4 @@ const SocialIcons = styled.div`
     &:hover {
         cursor: pointer;
     }
-`
-
-const ProjectDetails = styled.div`
-    /* background-color: aqua; */
-
-    display: flex;
-    justify-content: center;
-
-    @media (max-width: 500px) {
-        text-align: center;
-    }
-`
-
-const Assignment = styled.div`
-    font-family: "Open sans";
-    font-size: 10px;
-
-    display: flex;
-    justify-content: center;
-
-    @media (max-width: 500px) {
-        font-size: 8px;
-        padding-bottom: 5px;
-    }
-    
 `
